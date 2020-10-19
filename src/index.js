@@ -15,11 +15,6 @@ const tabSwitch = (() => {
     }
 
     const navBarDiv = document.querySelector('#nav-bar');
-    /*
-    const homeTab = navBarDiv.querySelector('#home-tab');
-    const contactTab = navBarDiv.querySelector('#contact-tab');
-    const menuTab = navBarDiv.querySelector('#menu-tab');
-    */
 
     const tabs = navBarDiv.querySelectorAll('a');
     tabs.forEach(tab => tab.addEventListener('click', (e) => {
@@ -41,11 +36,6 @@ const tabSwitch = (() => {
     }));
 
     console.log(contentContainer);
-
-
-
-
-
 
 })();
 
