@@ -1,6 +1,5 @@
 //console.log('hello');
-import loadImage from './image';
-import loadSummary from './summary';
+import { loadImage, loadSummary } from './home';
 
 loadImage();
 loadSummary();
